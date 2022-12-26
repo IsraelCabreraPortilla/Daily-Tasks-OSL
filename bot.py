@@ -20,14 +20,14 @@ def daily_commands(update,context):
         f"El usuario {name}, ha puesto una solicitud de daily Tasks en el chat {title} (id = {chat_id} )")
   context.bot.sendMessage(
         chat_id="-819161372", parse_mode="HTML", text="Starting Daily Tasks Spreads OSL")
-  context.bot.sendMessage(
-        chat_id="-819161372", parse_mode="HTML", text="/rfq_spreads@Spreads_rfq_bot")
-  context.bot.sendMessage(
-        chat_id="-819161372", parse_mode="HTML", text="/exch_spreads@Spreads_exch_bot")
-  context.bot.sendMessage(
-        chat_id="-819161372", parse_mode="HTML", text="/exch_spread_tracker_all_coins@spread_all_coins_exch_bot")
-  context.bot.sendMessage(
-        chat_id="-819161372", parse_mode="HTML", text="/rfq_spread_tracker_all_coins@spread_all_coins_rfq_bot")
+  #context.bot.sendMessage(
+  #      chat_id="-819161372", parse_mode="HTML", text="/rfq_spreads@Spreads_rfq_bot")
+  #context.bot.sendMessage(
+  #      chat_id="-819161372", parse_mode="HTML", text="/exch_spreads@Spreads_exch_bot")
+  #context.bot.sendMessage(
+  #      chat_id="-819161372", parse_mode="HTML", text="/exch_spread_tracker_all_coins@spread_all_coins_exch_bot")
+  #context.bot.sendMessage(
+  #      chat_id="-819161372", parse_mode="HTML", text="/rfq_spread_tracker_all_coins@spread_all_coins_rfq_bot")
   
 if __name__ == "__main__":
     # Obtenemos la informacion del Bot
